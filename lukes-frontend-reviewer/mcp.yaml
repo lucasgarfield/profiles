@@ -1,0 +1,5 @@
+servers:
+  - name: patternfly-docs
+    transport: stdio
+    command: npx
+    args: ["-y", "@patternfly/patternfly-mcp@latest"]
